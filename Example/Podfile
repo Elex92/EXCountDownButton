@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EXCountDownButton_Example' do
+  pod 'EXCountDownButton', :path => '../'
+
+  target 'EXCountDownButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

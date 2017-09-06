@@ -1,0 +1,16 @@
+PODS:
+  - EXCountDownButton (0.1.0)
+
+DEPENDENCIES:
+  - EXCountDownButton (from `../`)
+
+EXTERNAL SOURCES:
+  EXCountDownButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EXCountDownButton: 35fa5a21f2cc8b5751c595bd89efed524589fb5b
+
+PODFILE CHECKSUM: bda5323945aac4570954ecff403c398d8d2eccdc
+
+COCOAPODS: 1.2.1

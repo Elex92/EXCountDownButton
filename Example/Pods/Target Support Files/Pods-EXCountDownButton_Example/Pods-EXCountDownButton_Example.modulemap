@@ -1,0 +1,6 @@
+framework module Pods_EXCountDownButton_Example {
+  umbrella header "Pods-EXCountDownButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

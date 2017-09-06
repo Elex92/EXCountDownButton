@@ -1,0 +1,6 @@
+framework module EXCountDownButton {
+  umbrella header "EXCountDownButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039C304C7CA17FB1EEF059B3818DA7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		075BA60C3A2503B022E079B8B4B9ECD7 /* Pods-EXCountDownButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3166D53C56FEDC61480120154F7C6 /* Pods-EXCountDownButton_Tests-dummy.m */; };
+		3993CBD6D3F3E3528FF181A06C36D58F /* Pods-EXCountDownButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31F9BD4DEE1AAC5837C8D40A1E9DD0 /* Pods-EXCountDownButton_Example-dummy.m */; };
+		39E74109AE3592DCD91C20002122CF71 /* Pods-EXCountDownButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E995A342A3080A724C2DBAA1E9F17E /* Pods-EXCountDownButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D53C0A8C2948E9AE9563D6CE76A614D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8192B6EADFC869435FE9DAC262E0D8C0 /* EXCountDownButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC399F0C97E7E9E8019E44A2905825B4 /* EXCountDownButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD8CA2092F67907A14DE869A2700FBC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C9C5E5DD4E1D7C64E30FB7E6E5E6A095 /* Pods-EXCountDownButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05659F4BEE380F746BB172DC3C1A9A29 /* Pods-EXCountDownButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F186C63F4D962B94A3C053828AA2A984 /* EXCountDownButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 481A704280EE5CA03C671D14B2C5035C /* EXCountDownButton-dummy.m */; };
+		FE357E171F5FA12A0024D644 /* EXCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FE357E151F5FA12A0024D644 /* EXCountDownButton.h */; };
+		FE357E181F5FA12A0024D644 /* EXCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE357E161F5FA12A0024D644 /* EXCountDownButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9ECF0A0B16983CA74D7D8CB67947469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62C921BD91A4E7FDB6EC20A15DB4142B;
+			remoteInfo = EXCountDownButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05659F4BEE380F746BB172DC3C1A9A29 /* Pods-EXCountDownButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EXCountDownButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		2180BBC86CB12144ED760AFB2FEFA02D /* Pods-EXCountDownButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EXCountDownButton_Example-resources.sh"; sourceTree = "<group>"; };
+		39224326CDBFBD1586AB79D93A33915E /* Pods-EXCountDownButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EXCountDownButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3A31F9BD4DEE1AAC5837C8D40A1E9DD0 /* Pods-EXCountDownButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EXCountDownButton_Example-dummy.m"; sourceTree = "<group>"; };
+		41BBB6590942ADB1357E7E761AB75140 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4202EF45EA881D34FF57344749ED7487 /* Pods-EXCountDownButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EXCountDownButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		481A704280EE5CA03C671D14B2C5035C /* EXCountDownButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXCountDownButton-dummy.m"; sourceTree = "<group>"; };
+		525380E976D36A72D74D4628886B1F45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544BE400F7332AB8FA44FAF68B627A5C /* Pods-EXCountDownButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EXCountDownButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		562A65A5D462B560502FDB47F6C063BC /* Pods-EXCountDownButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EXCountDownButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7DA0AA2CD7E94C0EFED0FC9BE0BEBA34 /* Pods-EXCountDownButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EXCountDownButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		801346420CB80F2C71F09673B54DA078 /* Pods_EXCountDownButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EXCountDownButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D3166D53C56FEDC61480120154F7C6 /* Pods-EXCountDownButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EXCountDownButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		8A9E18D6449C296F20BDD174A3CEFFCC /* Pods_EXCountDownButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EXCountDownButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E995A342A3080A724C2DBAA1E9F17E /* Pods-EXCountDownButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EXCountDownButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		96BD3F72C77A6FDDEA1942672BC3C0BA /* EXCountDownButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXCountDownButton.xcconfig; sourceTree = "<group>"; };
+		9CE503D6CEFBB8EA26C8529609DC0279 /* Pods-EXCountDownButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EXCountDownButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C325F0423EB61E63BF2BEC2BDE280B71 /* Pods-EXCountDownButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EXCountDownButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C64DE465AC8BE6A91DD684BCFCDEB085 /* Pods-EXCountDownButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EXCountDownButton_Example.modulemap"; sourceTree = "<group>"; };
+		DB2A3BCA77B57B6ECDDE07628DAB52D8 /* Pods-EXCountDownButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EXCountDownButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF88ADB1D3562E90558A2A3FD70FB9A3 /* Pods-EXCountDownButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EXCountDownButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E186AADAD6C98F938ED7085E41BD0142 /* Pods-EXCountDownButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EXCountDownButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		E5F62FAB5DCC14BB15B3C65A719D774B /* EXCountDownButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXCountDownButton-prefix.pch"; sourceTree = "<group>"; };
+		E742FDF89FA041F6CE77D344B10157D7 /* Pods-EXCountDownButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EXCountDownButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E8EBE3A68E8E20CBB7E89E6F340E2C39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC07C4F43F74A1DC96FF1A45A807A9FA /* Pods-EXCountDownButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EXCountDownButton_Tests.modulemap"; sourceTree = "<group>"; };
+		EC399F0C97E7E9E8019E44A2905825B4 /* EXCountDownButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXCountDownButton-umbrella.h"; sourceTree = "<group>"; };
+		EC404CE5657A28FADBF7C90EBF6C21CB /* EXCountDownButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EXCountDownButton.modulemap; sourceTree = "<group>"; };
+		F554F88C2649CFC7B2D6E66B48FF4C5F /* EXCountDownButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EXCountDownButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE357E151F5FA12A0024D644 /* EXCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXCountDownButton.h; sourceTree = "<group>"; };
+		FE357E161F5FA12A0024D644 /* EXCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXCountDownButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3402820566876C5614308F22CA383339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039C304C7CA17FB1EEF059B3818DA7D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C623A5C2020AB75E2526ABA6CFEA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D53C0A8C2948E9AE9563D6CE76A614D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AB7B3CFAF3B1FD014646BFA81561CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8CA2092F67907A14DE869A2700FBC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47CEF41D00083DC5D2B1FD850CDE7D07 /* Pods-EXCountDownButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				41BBB6590942ADB1357E7E761AB75140 /* Info.plist */,
+				EC07C4F43F74A1DC96FF1A45A807A9FA /* Pods-EXCountDownButton_Tests.modulemap */,
+				DF88ADB1D3562E90558A2A3FD70FB9A3 /* Pods-EXCountDownButton_Tests-acknowledgements.markdown */,
+				562A65A5D462B560502FDB47F6C063BC /* Pods-EXCountDownButton_Tests-acknowledgements.plist */,
+				81D3166D53C56FEDC61480120154F7C6 /* Pods-EXCountDownButton_Tests-dummy.m */,
+				39224326CDBFBD1586AB79D93A33915E /* Pods-EXCountDownButton_Tests-frameworks.sh */,
+				E186AADAD6C98F938ED7085E41BD0142 /* Pods-EXCountDownButton_Tests-resources.sh */,
+				93E995A342A3080A724C2DBAA1E9F17E /* Pods-EXCountDownButton_Tests-umbrella.h */,
+				C325F0423EB61E63BF2BEC2BDE280B71 /* Pods-EXCountDownButton_Tests.debug.xcconfig */,
+				E742FDF89FA041F6CE77D344B10157D7 /* Pods-EXCountDownButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-EXCountDownButton_Tests";
+			path = "Target Support Files/Pods-EXCountDownButton_Tests";
+			sourceTree = "<group>";
+		};
+		4B6284E1C2D2EB462BB61DF2233304F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E224B3E2B42A75BE161754D1B994B14B /* Pods-EXCountDownButton_Example */,
+				47CEF41D00083DC5D2B1FD850CDE7D07 /* Pods-EXCountDownButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4FBB7D6C45C6D102A95C1A840EF7849B /* EXCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDD70FDAE9570E9C7D939ED00BD838 /* Classes */,
+			);
+			path = EXCountDownButton;
+			sourceTree = "<group>";
+		};
+		527550584D763CFD6596632DDC44EA26 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76EFBBBB4E44093A0364D3497AB11F2C /* EXCountDownButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		76EFBBBB4E44093A0364D3497AB11F2C /* EXCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				4FBB7D6C45C6D102A95C1A840EF7849B /* EXCountDownButton */,
+				ABFF025069F437ECEB8C2E30768FC3BC /* Support Files */,
+			);
+			name = EXCountDownButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				527550584D763CFD6596632DDC44EA26 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A160FB0521F0FFFA63712FA0882CD3AC /* Products */,
+				4B6284E1C2D2EB462BB61DF2233304F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A160FB0521F0FFFA63712FA0882CD3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F554F88C2649CFC7B2D6E66B48FF4C5F /* EXCountDownButton.framework */,
+				8A9E18D6449C296F20BDD174A3CEFFCC /* Pods_EXCountDownButton_Example.framework */,
+				801346420CB80F2C71F09673B54DA078 /* Pods_EXCountDownButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABFF025069F437ECEB8C2E30768FC3BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC404CE5657A28FADBF7C90EBF6C21CB /* EXCountDownButton.modulemap */,
+				96BD3F72C77A6FDDEA1942672BC3C0BA /* EXCountDownButton.xcconfig */,
+				481A704280EE5CA03C671D14B2C5035C /* EXCountDownButton-dummy.m */,
+				E5F62FAB5DCC14BB15B3C65A719D774B /* EXCountDownButton-prefix.pch */,
+				EC399F0C97E7E9E8019E44A2905825B4 /* EXCountDownButton-umbrella.h */,
+				E8EBE3A68E8E20CBB7E89E6F340E2C39 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EXCountDownButton";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E224B3E2B42A75BE161754D1B994B14B /* Pods-EXCountDownButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				525380E976D36A72D74D4628886B1F45 /* Info.plist */,
+				C64DE465AC8BE6A91DD684BCFCDEB085 /* Pods-EXCountDownButton_Example.modulemap */,
+				DB2A3BCA77B57B6ECDDE07628DAB52D8 /* Pods-EXCountDownButton_Example-acknowledgements.markdown */,
+				4202EF45EA881D34FF57344749ED7487 /* Pods-EXCountDownButton_Example-acknowledgements.plist */,
+				3A31F9BD4DEE1AAC5837C8D40A1E9DD0 /* Pods-EXCountDownButton_Example-dummy.m */,
+				544BE400F7332AB8FA44FAF68B627A5C /* Pods-EXCountDownButton_Example-frameworks.sh */,
+				2180BBC86CB12144ED760AFB2FEFA02D /* Pods-EXCountDownButton_Example-resources.sh */,
+				05659F4BEE380F746BB172DC3C1A9A29 /* Pods-EXCountDownButton_Example-umbrella.h */,
+				7DA0AA2CD7E94C0EFED0FC9BE0BEBA34 /* Pods-EXCountDownButton_Example.debug.xcconfig */,
+				9CE503D6CEFBB8EA26C8529609DC0279 /* Pods-EXCountDownButton_Example.release.xcconfig */,
+			);
+			name = "Pods-EXCountDownButton_Example";
+			path = "Target Support Files/Pods-EXCountDownButton_Example";
+			sourceTree = "<group>";
+		};
+		FFDDD70FDAE9570E9C7D939ED00BD838 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE357E151F5FA12A0024D644 /* EXCountDownButton.h */,
+				FE357E161F5FA12A0024D644 /* EXCountDownButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3787E1BE499AB16BE7819070B37BC578 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C5E5DD4E1D7C64E30FB7E6E5E6A095 /* Pods-EXCountDownButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E7216DF910F0BB1A322F89952DB52E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8192B6EADFC869435FE9DAC262E0D8C0 /* EXCountDownButton-umbrella.h in Headers */,
+				FE357E171F5FA12A0024D644 /* EXCountDownButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B00431F9D5E0C1E787E1AA7A5E88996 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E74109AE3592DCD91C20002122CF71 /* Pods-EXCountDownButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		389E0CF4A82DDDE8AE26E98DF3BCFFBB /* Pods-EXCountDownButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2615E822A77840ED51F7F975DAE4F9 /* Build configuration list for PBXNativeTarget "Pods-EXCountDownButton_Tests" */;
+			buildPhases = (
+				8237AB1E8DD040D744F549BB627596B8 /* Sources */,
+				72AB7B3CFAF3B1FD014646BFA81561CB /* Frameworks */,
+				8B00431F9D5E0C1E787E1AA7A5E88996 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EXCountDownButton_Tests";
+			productName = "Pods-EXCountDownButton_Tests";
+			productReference = 801346420CB80F2C71F09673B54DA078 /* Pods_EXCountDownButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62C921BD91A4E7FDB6EC20A15DB4142B /* EXCountDownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B583447927A76BCB528A798FE7F0D0F8 /* Build configuration list for PBXNativeTarget "EXCountDownButton" */;
+			buildPhases = (
+				51CC99DD15A782B26C91FEE52A50B226 /* Sources */,
+				3402820566876C5614308F22CA383339 /* Frameworks */,
+				49E7216DF910F0BB1A322F89952DB52E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EXCountDownButton;
+			productName = EXCountDownButton;
+			productReference = F554F88C2649CFC7B2D6E66B48FF4C5F /* EXCountDownButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC5E8C82651661DEBE34D35F0F4209B1 /* Pods-EXCountDownButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3055A58F5676F49B20A11CB72AC1A5C2 /* Build configuration list for PBXNativeTarget "Pods-EXCountDownButton_Example" */;
+			buildPhases = (
+				1364004F321DED6945DD1074FB214346 /* Sources */,
+				63C623A5C2020AB75E2526ABA6CFEA6E /* Frameworks */,
+				3787E1BE499AB16BE7819070B37BC578 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9111DBF10D9FEEC66D312D3ED98CF34B /* PBXTargetDependency */,
+			);
+			name = "Pods-EXCountDownButton_Example";
+			productName = "Pods-EXCountDownButton_Example";
+			productReference = 8A9E18D6449C296F20BDD174A3CEFFCC /* Pods_EXCountDownButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A160FB0521F0FFFA63712FA0882CD3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62C921BD91A4E7FDB6EC20A15DB4142B /* EXCountDownButton */,
+				CC5E8C82651661DEBE34D35F0F4209B1 /* Pods-EXCountDownButton_Example */,
+				389E0CF4A82DDDE8AE26E98DF3BCFFBB /* Pods-EXCountDownButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1364004F321DED6945DD1074FB214346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3993CBD6D3F3E3528FF181A06C36D58F /* Pods-EXCountDownButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51CC99DD15A782B26C91FEE52A50B226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE357E181F5FA12A0024D644 /* EXCountDownButton.m in Sources */,
+				F186C63F4D962B94A3C053828AA2A984 /* EXCountDownButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8237AB1E8DD040D744F549BB627596B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075BA60C3A2503B022E079B8B4B9ECD7 /* Pods-EXCountDownButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9111DBF10D9FEEC66D312D3ED98CF34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EXCountDownButton;
+			target = 62C921BD91A4E7FDB6EC20A15DB4142B /* EXCountDownButton */;
+			targetProxy = D9ECF0A0B16983CA74D7D8CB67947469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09475689C2F197B6E178FC7B7A8DEA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E742FDF89FA041F6CE77D344B10157D7 /* Pods-EXCountDownButton_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EXCountDownButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EXCountDownButton_Tests/Pods-EXCountDownButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EXCountDownButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C6CD61AC430C96A46E2E3D3AFAB5FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BD3F72C77A6FDDEA1942672BC3C0BA /* EXCountDownButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EXCountDownButton/EXCountDownButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EXCountDownButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EXCountDownButton/EXCountDownButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EXCountDownButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		374FA365848162A4AFD633102391BFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BD3F72C77A6FDDEA1942672BC3C0BA /* EXCountDownButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EXCountDownButton/EXCountDownButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EXCountDownButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EXCountDownButton/EXCountDownButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EXCountDownButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		487D3A77939BD5D1D2D6031A1842D969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE503D6CEFBB8EA26C8529609DC0279 /* Pods-EXCountDownButton_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EXCountDownButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EXCountDownButton_Example/Pods-EXCountDownButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EXCountDownButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D474542DEB61319A715C0A4D5856B49E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA0AA2CD7E94C0EFED0FC9BE0BEBA34 /* Pods-EXCountDownButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EXCountDownButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EXCountDownButton_Example/Pods-EXCountDownButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EXCountDownButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E32E4698F085DF9098AA4B1B2C486436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C325F0423EB61E63BF2BEC2BDE280B71 /* Pods-EXCountDownButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EXCountDownButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EXCountDownButton_Tests/Pods-EXCountDownButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EXCountDownButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3055A58F5676F49B20A11CB72AC1A5C2 /* Build configuration list for PBXNativeTarget "Pods-EXCountDownButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D474542DEB61319A715C0A4D5856B49E /* Debug */,
+				487D3A77939BD5D1D2D6031A1842D969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2615E822A77840ED51F7F975DAE4F9 /* Build configuration list for PBXNativeTarget "Pods-EXCountDownButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32E4698F085DF9098AA4B1B2C486436 /* Debug */,
+				09475689C2F197B6E178FC7B7A8DEA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B583447927A76BCB528A798FE7F0D0F8 /* Build configuration list for PBXNativeTarget "EXCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374FA365848162A4AFD633102391BFEA /* Debug */,
+				2C6CD61AC430C96A46E2E3D3AFAB5FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

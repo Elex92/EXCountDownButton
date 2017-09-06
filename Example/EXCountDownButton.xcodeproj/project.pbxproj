@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0284B7A450380B738CB4F836 /* Pods-EXCountDownButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EXCountDownButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EXCountDownButton_Example/Pods-EXCountDownButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		108B71B5E422B6FD4A02F037 /* EXCountDownButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EXCountDownButton.podspec; path = ../EXCountDownButton.podspec; sourceTree = "<group>"; };
+		108B71B5E422B6FD4A02F037 /* EXCountDownButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EXCountDownButton.podspec; path = ../EXCountDownButton.podspec; sourceTree = "<group>"; };
 		10B0B63009F373C449C5EBF2 /* Pods-EXCountDownButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EXCountDownButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EXCountDownButton_Example/Pods-EXCountDownButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* EXCountDownButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EXCountDownButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		73969BD97C423715AC7A3AF5 /* Pods-EXCountDownButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EXCountDownButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EXCountDownButton_Tests/Pods-EXCountDownButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		79092A561C6152EA4590E8C9 /* Pods_EXCountDownButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EXCountDownButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C24EF1CA76126BA3E488D1D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C24EF1CA76126BA3E488D1D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E1299FEB3E804DEC0D236B3F /* Pods_EXCountDownButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EXCountDownButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F67EA3369359D67FCAB085 /* Pods-EXCountDownButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EXCountDownButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EXCountDownButton_Tests/Pods-EXCountDownButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EDAA419DBB21C734E62B768D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EDAA419DBB21C734E62B768D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -530,6 +530,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/** /**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -545,6 +546,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/** /**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
